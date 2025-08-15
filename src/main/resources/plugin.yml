@@ -1,0 +1,71 @@
+  <xaiArtifact contentType="application/yaml" artifact_id="plugin_yml">
+  # Plugin Adı
+  name: DepoPlugin
+
+  # Plugin Sürümü
+  version: 1.0
+
+  # Ana Plugin Sınıfı (groupId'nizle eşleşmeli)
+  main: com.melut.depoplugin.DepoPl # Kendi paket adınızla değiştirin
+
+  # Plugin Açıklaması
+  description: Oyunculara özel 14 farklı depo sunar.
+
+  # Plugin Yazarı/Yazarları
+  author: SeninAdin
+
+  # Pluginin çalışması için gereken API sürümü
+  api-version: 1.20 # Minecraft 1.21.1 için 1.20 veya üstü kullanılabilir
+
+  # Pluginin komutları
+  commands:
+    depo:
+      description: Oyuncunun depolarını açar.
+      usage: /depo
+      permission: depo.1 # Varsayılan olarak depo.1 izni gerektirir
+
+  # Pluginin izinleri
+  permissions:
+    depo.1:
+      description: Oyuncunun 1. depoyu kullanmasına izin verir.
+      default: true # Bu izin varsayılan olarak tüm oyunculara verilir
+    depo.2:
+      description: Oyuncunun 2. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.3:
+      description: Oyuncunun 3. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.4:
+      description: Oyuncunun 4. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.5:
+      description: Oyuncunun 5. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.6:
+      description: Oyuncunun 6. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.7:
+      description: Oyuncunun 7. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.8:
+      description: Oyuncunun 8. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.9:
+      description: Oyuncunun 9. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsaklan olarak OPlere verilir
+    depo.10:
+      description: Oyuncunun 10. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.11:
+      description: Oyuncunun 11. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.12:
+      description: Oyuncunun 12. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.13:
+      description: Oyuncunun 13. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    depo.14:
+      description: Oyuncunun 14. depoyu kullanmasına izin verir.
+      default: op # Bu izin varsayılan olarak OPlere verilir
+    </xaiArtifact>
